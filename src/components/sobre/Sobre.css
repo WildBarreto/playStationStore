@@ -1,0 +1,19 @@
+.sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #005499;
+  padding: 20px;
+}
+
+.sobre h2 {
+  text-align: center;
+  color: white;
+}
+
+.sobre p {
+  text-align: justify;
+  color: white;
+  width: 800px;
+  margin-top: 10px;
+}

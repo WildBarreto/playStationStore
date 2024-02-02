@@ -1,16 +1,16 @@
-import jogo1 from "../../assets/bt-1.jpg";
+//import jogo1 from "../../assets/bt-1.jpg";
 import "./card.css";
 
-function Card() {
+const Card = (props) =>{
   return (
     <>
       <div className="card">
         <article>
           <figure>
-            <img src={jogo1} alt="cappuccino" />
-            <h3>Battlefild 1</h3>
+            <img src={props.image} alt="cappuccino" />
+            <h3>{props.nome}</h3>
             <span className="desconto">-30%</span>
-            <h3>R$8,50</h3>
+            <h3>{props.preco}</h3>
           </figure>
         </article>
       </div>

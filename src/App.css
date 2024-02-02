@@ -21,13 +21,13 @@
 
 section {
   display: flex;
-  
 }
-.cards{
+.cards {
   display: flex;
   flex-wrap: wrap;
   width: 800px;
   margin-left: 100px;
+  margin-bottom: 15px;
   align-items: flex-start;
 }
 aside {
@@ -36,10 +36,10 @@ aside {
   font-size: 15px;
   margin-left: 5px;
   margin-bottom: 200px;
- 
 }
 
 h1 {
   margin-left: 380px;
   font-size: 30px;
 }
+
