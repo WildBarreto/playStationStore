@@ -1,6 +1,7 @@
 import "./App.css";
 import capa from "./assets/capa-a-playstation-store-psn-finalmente-implementa-um-recurso-altamente-solicitado.jpg";
 import logo from "./assets/ps-logo.png";
+import Card from "./components/card/Card";
 import Menu from "./components/menu/Menu";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Menu />
       <img src={capa} alt="" className="capa" />
       <h1>Ofertas</h1>
+      <Card />
       <aside>
         <h2>Informações Adicionais</h2>
         <p>
@@ -17,7 +19,6 @@ function App() {
           promoções, noticias, etc.
         </p>
       </aside>
-    
     </>
   );
 }

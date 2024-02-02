@@ -1,0 +1,39 @@
+
+.card {
+  display: inline-block;
+  text-align: center;
+}
+.card > article:hover {
+  transform: scale(
+    1.2
+  ); /* Aumenta o tamanho em 20% quando o mouse está sobre o elemento */
+  cursor: pointer;
+}
+.card > article {
+  background-color: #f9f9f9;
+  background-color: rgba(154, 183, 216, 0.42);
+  margin: 30px 25px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+}
+
+.card > article figure {
+  margin-bottom: 8px;
+}
+
+.card > article figure img {
+  border-radius: 10px;
+  width: 80%;
+  height: 80%;
+  margin-top: 15px;
+  aspect-ratio: 1 / 1;
+}
+
+.card > figcaption {
+  font-family: "Clicker Script", cursive;
+  font-size: 23px;
+  font-weight: bold;
+}
