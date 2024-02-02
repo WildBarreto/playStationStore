@@ -11,14 +11,23 @@ function App() {
       <Menu />
       <img src={capa} alt="" className="capa" />
       <h1>Ofertas</h1>
-      <Card />
-      <aside>
-        <h2>Informações Adicionais</h2>
-        <p>
-          Este é o espaço para informações adicionais sobre o catalogo de jogos,
-          promoções, noticias, etc.
-        </p>
-      </aside>
+      <section>
+        <aside>
+          <h2>Informações Adicionais</h2>
+          <p>
+            Este é o espaço para informações adicionais sobre o catalogo de
+            jogos, promoções, noticias, etc.
+          </p>
+        </aside>
+        <div className="cards">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
+      </section>
     </>
   );
 }
